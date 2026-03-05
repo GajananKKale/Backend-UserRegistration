@@ -13,8 +13,8 @@ let _dirname = path.resolve()
 
 //middleware
 app.use(cors({
-    origin: "http://localhost:5173",
-    // origin: "https://userregistration-1-a0md.onrender.com",
+    // origin: "http://localhost:5173",
+    origin: "https://myfreeweb.netlify.app",
     credentials: true
 }));
 
